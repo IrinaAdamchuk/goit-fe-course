@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.container {
+    width: 901px;
+    margin: 0 auto;
+}
+
+.site-navigation {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    list-style: none;
+    text-align: center;
+}
+
+.site-navigation li {
+    display: inline-block;
+    margin-top: 77px;
+    margin-bottom: 104px;
+
+}
+
+.site-navigation a {
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.photodiary {
+    margin-left: 122px;
+    margin-right: 104px;
+}
+
+.music {
+    margin-right: 96px;
+}
+
+.subtitle {
+    margin-top: 30px;
+    margin-bottom: 28px;
+    color: #b4ad9e;
+    line-height: 17px;
+    text-transform: uppercase;
+}
+
+.title {
+    margin-bottom: 38px;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.lifestyle-list-item {
+    display: inline-block;
+    width: 420px;
+}
+
+.lifestyle-list-item {
+    margin-right: 55px;
+    margin-bottom: 128px;
+}
+
+.lifestyle-list-item:nth-last-child(-n+2) {
+    margin-bottom: 0;
+}
+
+.lifestyle-list-item:nth-child(2n) {
+    margin-right: 0;
+}
+
+.lifestyle-list {
+    margin-bottom: 57px;
+}
+
+.botton {
+    display: block;
+    border-color: #626262;
+    border-width: 1px;
+    margin: 0 auto;
+    padding: 0;
+    width: 164px;
+    height: 60px;
+    margin-bottom: 70px;
+    background-color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    position: relative;
+}
