@@ -41,6 +41,12 @@ body {
     text-decoration: none;
 }
 
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+ color: #25b4f5;
+}
+
 .photodiary {
     margin-left: 122px;
     margin-right: 104px;
@@ -100,4 +106,5 @@ body {
     font-size: 20px;
     line-height: 24px;
     position: relative;
+    cursor: pointer;
 }
