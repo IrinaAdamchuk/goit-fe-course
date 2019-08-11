@@ -86,7 +86,7 @@ img {
     color: #1abc9c;
 }
 
-.title {
+h2 {
     font-size: 48px;
     line-height: 32px;
     color: #515151;
@@ -94,7 +94,7 @@ img {
     text-align: center
 }
 
-.title::after {
+h2::after {
     display: block;
     content: "";
     width: 160px;
@@ -105,25 +105,15 @@ img {
     margin-bottom: 82px;
 }
 
-.title featured {
-    margin: 20px auto;
-}
-
 .gallery-item {
     margin: 0;
     padding: 0;
-}
-
-.gallery-item {
     font-size: 18px;
     line-height: 32px;
     font-weight: 700;
     color: #ffffff;
     text-transform: uppercase;
     margin-bottom: 30px;
-}
-
-.gallery-item {
     float: left;
 }
 
@@ -135,11 +125,11 @@ img {
     margin-bottom: 72px;
 }
 
-.gallery-item .product {
+.product {
     float: left;
 }
 
-.gallery-item .cost {
+.cost {
     float: left;
 }
 
@@ -170,10 +160,6 @@ img {
     padding-top: 4px;
 }
 
-.title blog {
-    padding-top: 72px;
-}
-
 .blog {
     color: #555252;
 }
@@ -181,9 +167,6 @@ img {
 .blog-item {
     margin: 0;
     padding: 0;
-}
-
-.blog-item {
     float: left;
     width: 350px;
 }
@@ -196,6 +179,16 @@ img {
     font-size: 18px;
     line-height: 26px;
     font-weight: 400;
+    margin-top: 14px;
+}
+
+.subtitle::after {
+    display: block;
+    content: "";
+    width: 136px;
+    height: 3px;
+    background-color: #1abc9c;
+    margin-top: 12px;
 }
 
 .text {
@@ -213,5 +206,5 @@ img {
     color: #ffffff;
     background-color: #4ec6ab;
     cursor: pointer;
+    border-radius: 6px;
 }
-
