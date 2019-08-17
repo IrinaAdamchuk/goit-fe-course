@@ -124,7 +124,7 @@ header {
 
 .slider-ctrl-prev {
     left: 244px;
-    background-image: url("/img/left.png");
+    background-image: url("https://github.com/IrinaAdamchuk/goit-fe-course/blob/master/hw-05/img/left.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -135,7 +135,7 @@ header {
 
 .slider-ctrl-next {
     right: 244px;
-    background-image: url("/img/right.png");
+    background-image: url("https://github.com/IrinaAdamchuk/goit-fe-course/blob/master/hw-05/img/right.png");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -295,23 +295,23 @@ h2::after {
 }
 
 .icon-heart {
-    background-image: url("/img/BUTTON_heart.png");
+    background-image: url("https://github.com/IrinaAdamchuk/goit-fe-course/blob/master/hw-05/img/BUTTON_heart.png");
     left: 0;
 }
 
 .icon-arrows {
-    background-image: url("/img/BUTTON_arrows.png");
+    background-image: url("https://github.com/IrinaAdamchuk/goit-fe-course/blob/master/hw-05/img/BUTTON_arrows.png");
     left: 50%;
     transform: translateX(-50%);
 }
 
 .icon-clock {
-    background-image: url("/img/BUTTON_clock.png");
+    background-image: url("https://github.com/IrinaAdamchuk/goit-fe-course/blob/master/hw-05/img/BUTTON_clock.png");
     right: 0;
 }
 
 .icon-add_cart {
-    background-image: url("/img/BUTTON_add.png");
+    background-image: url("https://github.com/IrinaAdamchuk/goit-fe-course/blob/master/hw-05/img/BUTTON_add.png");
     width: 166px;
     height: 50px;
     bottom: 0;
