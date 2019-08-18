@@ -93,20 +93,17 @@ header {
 
 .slider {
     position: relative;
-    width: 1648px;
-    height: 600px;
-    margin: auto;   
+    min-height: 600px;
+    background-size: cover;
+    background-position: center;
+    
 }
 
 .slider-overlay {
-    width: 1648px;
-    height: 600px;
+    width: 100%;
+    min-height: 600px;
     background-color: #000000;
     position: absolute;
-    opacity: 0;
-}
-
-.slider-overlay:hover {
     opacity: 0.55;
 }
 
@@ -152,6 +149,7 @@ header {
 
 .sliders-text {
     position: absolute;
+    max-width: 100%;
     top: 200px;
     left: 50%;
     transform: translateX(-50%);
@@ -334,7 +332,6 @@ h2::after {
 }
 
 .page-footer {
-    width: 1656px;
     height: 88px;
     margin: 0 auto;
     padding: 16px;
