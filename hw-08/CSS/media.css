@@ -1,0 +1,96 @@
+@media (max-width: 767px) {
+    .sign-in-list {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .site-logo {
+        margin-top: 118px;
+    }
+
+    .partners-list {
+        padding: 0 42px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+    
+    .page-header {
+        min-height: 700px;
+        background-image: url(../img/background768.png);
+    }
+
+    .sign-in-list {
+        width: 674px;
+        margin: 0 auto;
+        padding: 38px 50px 0;
+        justify-content: space-between;
+    }
+
+    h2 {
+        width: 504px;
+        font-size: 52px;
+        margin-top: 142px;
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        width: 406px;
+        font-size: 24px;
+    }
+
+    .promo-button {
+        width: 225px;
+        margin-top: 38px;
+    }
+
+    h4 {
+        margin-bottom: 36px;
+    }
+
+    .partners-list {
+        width: 482px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .partners-item {
+        width: 226px;
+    }
+
+    .other-button {
+        width: 192px;
+        margin-top: 44px;
+    }
+
+    @media (min-width: 1440px) {
+        .container {
+            width: 1440px;
+        }
+        
+        .page-header {
+            min-height: 700px;
+            background-image: url(../img/background.png);
+        }
+
+        .sign-in-list {
+            width: 942px;
+        }
+
+        .partners-list {
+            width: 942px;
+        }
+
+        .other-button {
+            margin-top: 20px;
+        }
+    }
+
+}
