@@ -11,7 +11,8 @@
   color: $primary-dark-color;
   transition: color 0.2s linear;
 
-  &:hover {
+  & a {
+    text-decoration: none;
     color: $secondary-bg-color;
   } 
 }

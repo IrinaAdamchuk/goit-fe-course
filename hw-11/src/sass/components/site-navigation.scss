@@ -13,7 +13,7 @@
   text-transform: uppercase;
   color: $primary-white-color;
   padding-bottom: 7px;
-  transition: color 0.2s linear, border-bottom 0.2s linear;
+  border-bottom: 3px solid transparent;
 
   &:hover, 
   &:focus { 
