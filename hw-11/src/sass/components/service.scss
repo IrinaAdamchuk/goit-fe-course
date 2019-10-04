@@ -1,0 +1,38 @@
+.service-list {
+  width: 1182px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.service-list__item {
+  display: flex;
+  margin-bottom: 90px;
+
+  &:nth-last-child(-n+3) {
+    margin-bottom: 0;
+  } 
+}
+
+
+.service-list__content {
+  width: 295px;
+}
+
+.service-list__name {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 11px;
+  color: $primary-dark-color;
+}
+
+.service-list__icon {
+  width: 82px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  fill: $primary-accent-color;
+}

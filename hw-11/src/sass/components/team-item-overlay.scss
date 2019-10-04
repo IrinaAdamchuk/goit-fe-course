@@ -1,0 +1,12 @@
+.overlay {
+  position: absolute;
+  background-image: linear-gradient(
+      to top,
+    #fce38a 0%, #f38181 100%);
+  width: 380px;
+  height: 470px;
+  background-size: cover;
+  opacity: 0;
+  z-index: 6;
+  transition: transform 0.2s linear, opacity 0.2s linear;
+}

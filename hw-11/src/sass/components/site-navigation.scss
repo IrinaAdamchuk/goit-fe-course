@@ -1,0 +1,39 @@
+.site-navigation {
+  display: flex;
+  width: 624px;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between; 
+  font-size: 14px;
+  list-style: none;
+}
+
+.site-navigation__item {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $primary-white-color;
+  padding-bottom: 7px;
+  transition: color 0.2s linear, border-bottom 0.2s linear;
+
+  &:hover, 
+  &:focus { 
+    color: $primary-bg-color;
+    border-bottom: 3px solid $primary-bg-color;
+  }
+}
+
+.site-logo {
+  text-decoration: none;
+  color: $primary-white-color;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.site-navigation__icon {
+  fill: $primary-white-color;
+  transition: fill 0.2s linear;
+
+  &:hover {
+    fill: $primary-bg-color;
+  }
+}

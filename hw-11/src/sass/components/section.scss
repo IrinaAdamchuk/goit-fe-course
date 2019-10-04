@@ -1,0 +1,28 @@
+.section__title--cursive {
+  font-family: $cursive-font-stack;
+  text-align: center;
+  font-size: 24px;
+  color: $primary-dark-color;
+  margin-top: 84px;
+  margin-bottom: 0;
+} 
+  
+.section__title--large {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: $primary-dark-color;
+  font-weight: bold;
+  margin-top: 16px;
+  margin-bottom: 44px;
+
+  &::after {
+    display: block;
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: $secondary-bg-color;
+    margin: 0 auto;
+    margin-top: 35px;
+  } 
+}

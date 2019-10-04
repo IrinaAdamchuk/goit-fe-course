@@ -1,0 +1,41 @@
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-top: 2px solid $secondary-light-color;
+  margin-top: 64px;
+}
+
+.page-info__text {
+  font-size: 14px;
+  color: $primary-dark-color;
+  transition: color 0.2s linear;
+
+  &:hover {
+    color: $secondary-bg-color;
+  } 
+}
+
+.user-block__input {
+  border: 2px solid $secondary-light-color;
+  width: 228px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: $main-text-size;
+  font-family: $decoration-text-font-stack;
+  color: $primary-inp-color;
+  font-style: italic;
+}
+
+.user-block {
+  display: flex;
+}
+
+.user-block__btn {
+  @extend %button;
+  border: none;
+  width: 148px;
+  margin: 0;
+  font-weight: bold;
+  background-color: $primary-accent-color;
+}

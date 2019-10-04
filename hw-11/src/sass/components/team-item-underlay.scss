@@ -1,0 +1,8 @@
+.underlay {
+  width: 380px;
+  height: 470px;
+  background-color: $primary-accent-color;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
